@@ -1,6 +1,10 @@
 const express = require('express');
 
 const SiteController = require('./controllers/SiteController');
+const SkillController = require('./controllers/SkillController');
+const CurseController = require('./controllers/CurseController');
+const ExperienceController = require('./controllers/ExperienceController');
+
 
 const routes = express.Router();
 
@@ -14,7 +18,7 @@ routes.post('/skills/update', SkillController.update);
 
 routes.get('/skills/:skill_id', SkillController.show);
 
-routes.post('/skills/delete/', SkillController.delete);
+routes.post('/skills/delete', SkillController.delete);
 
 
 routes.get('/curses', CurseController.index);
@@ -25,7 +29,7 @@ routes.post('/curses/update', CurseController.update);
 
 routes.get('/curses/:curse_id', CurseController.show);
 
-routes.post('/curses/delete/', CurseController.delete);
+routes.post('/curses/delete', CurseController.delete);
 
 
 routes.get('/experiences', ExperienceController.index);
@@ -36,7 +40,7 @@ routes.post('/experiences/update', ExperienceController.update);
 
 routes.get('/experiences/:experience_id', ExperienceController.show);
 
-routes.post('/experiences/delete/', ExperienceController.delete);
+routes.post('/experiences/delete', ExperienceController.delete);
 
 
 module.exports = routes;
