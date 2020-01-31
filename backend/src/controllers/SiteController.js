@@ -1,12 +1,15 @@
 const Skill = require('../models/Skill');
-const Experience = require('../models/Experience');
+const Curse = require('../models/Curse');
 
 
 module.exports = {
     async index(req, res) {
         const skill = await Skill.find({});
-        const experience = await Experience.find({});
+        const curse = await Curse.find({});
 
-        return res.json(skill);
+        return res.json({
+            skill: skill,
+            curse: curse,
+        });
     }
 }
