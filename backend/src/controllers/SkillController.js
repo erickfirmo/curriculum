@@ -38,5 +38,15 @@ module.exports = {
 
         return res.json(skill);
 
+    },
+
+    async delete(req, res) {
+
+        const { skill_id } = req.body;
+
+        const skill = await Skill.deleteOne({ id: skill_id });
+
+        return res.json(skill);
+
     }
 }
