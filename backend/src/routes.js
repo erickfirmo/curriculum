@@ -28,4 +28,15 @@ routes.get('/curses/:curse_id', CurseController.show);
 routes.post('/curses/delete/', CurseController.delete);
 
 
+routes.get('/experiences', ExperienceController.index);
+
+routes.post('/experiences/store', ExperienceController.store);
+
+routes.post('/experiences/update', ExperienceController.update);
+
+routes.get('/experiences/:experience_id', ExperienceController.show);
+
+routes.post('/experiences/delete/', ExperienceController.delete);
+
+
 module.exports = routes;
