@@ -30,5 +30,14 @@ module.exports = {
         experience = await Experience.update({ id: experience_id }, { company, office, activities, start_date, end_date });
     
         return res.json(experience);
+    },
+
+    async show(req, res) {
+
+        const { experience_id } = req.params;
+
+        experience = await Experience.findOne({ id: experience_id });
+
+        return res.json(experience);
     }
 }
