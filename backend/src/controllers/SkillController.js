@@ -20,8 +20,7 @@ module.exports = {
 
     async update(req, res) {
         
-        const { skill_id } = req.params;
-        const { name, level } = req.body;
+        const { name, level, skill_id  } = req.body;
 
         const skill = await Skill.update({ id: skill_id }, {
             name,
