@@ -21,5 +21,14 @@ module.exports = {
         });
 
         return res.json(experience);
+    },
+
+    async update(req, res) {
+
+        const { company, office, activities, start_date, end_date, experience_id } = req.body;
+
+        experience = await Experience.update({ id: experience_id }, { company, office, activities, start_date, end_date });
+    
+        return res.json(experience);
     }
 }
