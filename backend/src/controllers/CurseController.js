@@ -34,5 +34,14 @@ module.exports = {
         });
 
         return res.json(curse);
+    },
+
+    async show(req, res) {
+
+        const { curse_id } = req.params;
+
+        const curse = await Curse.findOne({ id: curse_id });
+
+        return res.json(curse);
     }
 }
