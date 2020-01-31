@@ -9,9 +9,9 @@ module.exports = {
         const experience = await Experience.find({});
 
         return res.json({
-            skill: skill,
-            curse: curse,
-            experience: experience
+            skill,
+            curse,
+            experience
         });
     }
 }
