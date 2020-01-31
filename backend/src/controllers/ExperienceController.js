@@ -39,5 +39,14 @@ module.exports = {
         experience = await Experience.findOne({ id: experience_id });
 
         return res.json(experience);
+    },
+
+    async delete(req, res) {
+
+        const { experience_id } = req.body;
+
+        experience = await Experience.deleteOne({ id: experience_id });
+
+        return res.json(experience);
     }
 }
