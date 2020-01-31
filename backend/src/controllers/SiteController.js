@@ -4,14 +4,14 @@ const Experience = require('../models/Experience');
 
 module.exports = {
     async index(req, res) {
-        const skill = await Skill.find({});
-        const curse = await Curse.find({});
-        const experience = await Experience.find({});
+        const skills = await Skill.find({});
+        const curses = await Curse.find({});
+        const experiences = await Experience.find({});
 
         return res.json({
-            skill,
-            curse,
-            experience
+            skills,
+            curses,
+            experiences
         });
     }
 }
