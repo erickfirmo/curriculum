@@ -16,5 +16,18 @@ module.exports = {
         })
 
         return res.json(skill);
+    },
+
+    async update(req, res) {
+        
+        const { skill_id } = req.params;
+        const { name, level } = req.body;
+
+        const skill = await Skill.update({ id: skill_id }, {
+            name,
+            level
+        });
+
+        return res.json(skill);
     }
 }
