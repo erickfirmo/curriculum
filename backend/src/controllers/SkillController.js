@@ -29,5 +29,15 @@ module.exports = {
         });
 
         return res.json(skill);
+    },
+
+    async show(req, res) {
+
+        const { skill_id } = req.params;
+
+        const skill = await Skill.findOne({ id: skill_id });
+
+        return res.json(skill);
+
     }
 }
