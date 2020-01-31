@@ -20,5 +20,19 @@ module.exports = {
         })
 
         return res.json(curse);
+    },
+
+    async update(req, res) {
+        
+        const { name, hours, school, yeard, curse_id } = req.body;
+
+        const curse = await Curse.update({ id: curse_id }, {
+            name,
+            hours,
+            school,
+            yeard
+        });
+
+        return res.json(curse);
     }
 }
