@@ -43,5 +43,14 @@ module.exports = {
         const curse = await Curse.findOne({ id: curse_id });
 
         return res.json(curse);
+    },
+
+    async delete(req, res) {
+
+        const { curse_id } = req.body;
+
+        const curse = Curse.deleteOne({ id: curse_id });
+
+        return res.json(curse);
     }
 }
