@@ -10,6 +10,8 @@ import './css/bootstrap.min.css';
 import './css/magnific-popup.css';
 import './css/style.css';
 import './css/colors/red.css';
+import './css/custom.css';
+
 
 const Index = React.lazy(() => import('./pages/index'));
 {/*const Index1 = React.lazy(() => import('./pages/index-1'));
