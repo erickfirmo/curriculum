@@ -13,7 +13,7 @@ class Capa extends Component {
         
         return (
             <React.Fragment>
-                <section className="section bg-web-desc">
+                <section className="section bg-web-desc capa">
                     <div className="bg-overlay"></div>
                     <div className="container">
                         <div className="row">
