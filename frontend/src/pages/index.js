@@ -13,7 +13,7 @@ import FooterAlt from './Layouts/footer-alt';
 import  Client from './Shared/client';
 import  About from './Shared/about';
 import  Services from './Shared/services';
-import  WebsiteDescription from './Shared/website-description';
+import  Capa from './Shared/capa';
 import  About1 from './Shared/about1';
 import  Pricing from './Shared/pricing';
 import  Testimonial from './Shared/testimonial';
@@ -55,7 +55,7 @@ class Index extends Component {
                 {/*<Header />*/}
 
                 {/* Home Section */}
-                <section className="section bg-home home-half" id="home" data-image-src="images/bg-home.jpg">
+                {/*<section className="section bg-home home-half" id="home" data-image-src="images/bg-home.jpg">
                     <div className="bg-overlay"></div>
                     <div className="container">
                         <div className="row">
@@ -69,7 +69,10 @@ class Index extends Component {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section>*/}
+
+                {/* Capa */}
+                <Capa />
 
                 {/* Client */}
                 <Client />
@@ -80,8 +83,7 @@ class Index extends Component {
                 {/* Services */}
                 <Services />
                 
-                {/* Website Description */}
-                <WebsiteDescription />
+                
                 
                 {/* About Us */}
                 <About1 />
