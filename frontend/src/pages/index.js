@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import '../css/colors/cyan.css';
 
 // Layouts
-import Header from './Layouts/header';
+//import Header from './Layouts/header';
 import Footer from './Layouts/footer';
 import FooterAlt from './Layouts/footer-alt';
 
@@ -41,8 +41,8 @@ class Index extends Component {
 
     componentDidMount()
     {
-      document.body.classList = "";
-      document.getElementById('nav-bar').classList.add('navbar-white');
+      //document.body.classList = "";
+      //document.getElementById('nav-bar').classList.add('navbar-white');
     }
 
 
@@ -52,7 +52,7 @@ class Index extends Component {
             <React.Fragment>
 
                 {/*  Header */}
-                <Header />
+                {/*<Header />*/}
 
                 {/* Home Section */}
                 <section className="section bg-home home-half" id="home" data-image-src="images/bg-home.jpg">
