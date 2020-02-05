@@ -1,0 +1,10 @@
+.capa {
+    min-height: 20vh;
+
+}
+
+img.profile {
+    border-radius: 50%;
+    width: 80%;
+    height: auto;
+}
