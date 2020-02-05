@@ -26,7 +26,7 @@ import ModalVideo from 'react-modal-video'
 import '../../node_modules/react-modal-video/scss/modal-video.scss';
 
 
-class Index1 extends Component {
+class Index extends Component {
 
     constructor(props) {
         super(props);
@@ -112,6 +112,6 @@ class Index1 extends Component {
     }
 }
 
-export default Index1;
+export default Index;
 
 
