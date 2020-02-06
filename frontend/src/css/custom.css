@@ -1,10 +1,30 @@
-.capa {
-    min-height: 20vh;
+section.capa {
+    height: 160px;
+    padding: 40px auto;
+}
 
+.capa h1 {
+    font-size: 48px;
+}
+
+.capa p {
+    font-size: 18px;
 }
 
 img.profile {
     border-radius: 50%;
-    width: 80%;
-    height: auto;
+    width: 240px;
+    height: 240px;
+    position: relative;
+    top: 40px;
+}
+
+@media(max-width: 767px) {
+    img.profile {
+        margin-bottom: 40px;
+    }
+}
+
+.bg-sky {
+    background-image: url('../images/sky.jpg');
 }
