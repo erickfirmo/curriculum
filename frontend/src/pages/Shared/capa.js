@@ -16,26 +16,18 @@ class Capa extends Component {
                 <section className="section capa p-0">
                     <div className="container">
                         <div className="row">
-                            <div className="col-12 d-flex">
+                            <div className="col-12 d-flex justify-content-center">
                                 <div className="my-auto top-40">
                                     <img src="https://avatars3.githubusercontent.com/u/34639603?s=460&v=4" alt="Foto de Perfil" className="img-fluid profile"/>
                                 </div>
-                                <div className="my-auto info top-40">
+                                <div className="my-auto top-40 justify-content-end">
                                     <h1>Érick Firmo</h1>
                                     <h2 className="mx-auto">Desenvolvedor Full Stack</h2>
-                                    <p className="home-desc mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <p className="home-desc mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididu ut labore et dolore magna aliqua.</p>
                                 </div>
                             </div>
                         </div>
-                        <div className="row">
-                            <div className="col-12 d-flex justify-content-end">
-                                <div className="my-auto d-flex justify-content-between info">
-                                    <div>E-mail: erickluques@gmail.com </div>
-                                    <div>Telefone: +55 11 93026 2702</div>
-                                    <div>São Paulo, SP - Brazil</div>
-                                </div>
-                            </div>
-                        </div>
+
                     </div>
                 </section>
             </React.Fragment >
