@@ -10,6 +10,7 @@ import Footer from './Layouts/footer';
 import FooterAlt from './Layouts/footer-alt';
 
 // Shared
+import  Info from './Shared/info';
 import  Client from './Shared/client';
 import  About from './Shared/about';
 import  Services from './Shared/services';
@@ -71,19 +72,17 @@ class Index extends Component {
                     </div>
                 </section>*/}
 
+                {/* Client */}
+                <Info />
+
                 {/* Capa */}
                 <Capa />
 
-                {/* Client 
-                <Client />*/}
-                
                 {/* About */}
                 <About />
                 
                 {/* Services */}
                 <Services />
-                
-                
                 
                 {/* About Us */}
                 <About1 />
