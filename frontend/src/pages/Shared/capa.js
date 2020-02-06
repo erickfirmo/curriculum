@@ -27,6 +27,15 @@ class Capa extends Component {
                                 </div>
                             </div>
                         </div>
+                        <div className="row">
+                            <div className="col-12 d-flex justify-content-end">
+                                <div className="my-auto d-flex justify-content-between info">
+                                    <div>E-mail: erickluques@gmail.com </div>
+                                    <div>Telefone: +55 11 93026 2702</div>
+                                    <div>São Paulo, SP - Brazil</div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </section>
             </React.Fragment >
