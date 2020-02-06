@@ -37,6 +37,9 @@ img.profile {
     position: relative;
     top: 20px;
 }
+.info {
+    background-color: #ddd;
+}
 
 .info div {
     margin: 20px;
