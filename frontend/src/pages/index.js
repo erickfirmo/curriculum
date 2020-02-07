@@ -15,6 +15,7 @@ import  Client from './Shared/client';
 import  About from './Shared/about';
 import  Services from './Shared/services';
 import  Capa from './Shared/capa';
+import  Portfolio from './Shared/portfolio';
 import  About1 from './Shared/about1';
 import  Pricing from './Shared/pricing';
 import  Testimonial from './Shared/testimonial';
@@ -79,7 +80,7 @@ class Index extends Component {
                 <Capa />
 
                 {/* About */}
-                <About />
+                <Portfolio />
                 
                 {/* Services */}
                 <Services />
