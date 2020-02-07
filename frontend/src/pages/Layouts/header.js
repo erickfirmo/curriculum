@@ -37,12 +37,7 @@ class Header extends Component {
                             </button>
                             <div className={this.state.isOpen ? "collapse navbar-collapse show" : "collapse navbar-collapse"} style={{ display : this.state.isOpen ? "inline-grid" : "" }} id="navbarCollapse">
 
-                                <ScrollspyNav
-                                    scrollTargetIds={["home", "features", "services", "about", "pricing", "blog", "contact"]}
-                                    activeNavClass="active"
-                                    scrollDuration="800"
-                                    headerBackground="true"
-                                    className={this.state.isOpen ? "navbar-nav ml-0 float-left" : "navbar-nav navbar-center"} >
+                               
                                         
                                     <ul className={this.state.isOpen ? "navbar-nav navbar-left" : "navbar-nav ml-auto navbar-left"} id="mySidenav">
                                         <li className="nav-item active"><a href="#home" className="nav-link">Home</a></li>
@@ -54,7 +49,6 @@ class Header extends Component {
                                         <li className="nav-item"><a href="#contact" className="nav-link">Contact</a> </li>
                                     </ul>
 
-                                </ScrollspyNav>
                                 <div className={this.state.isOpen ? "nav-button" : "nav-button ml-auto"}>
                                     <ul className="nav navbar-nav navbar-left">
                                         <li>
