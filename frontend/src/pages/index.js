@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import '../css/colors/cyan.css';
 
 // Layouts
-//import Header from './Layouts/header';
+import Header from './Layouts/header';
 import Footer from './Layouts/footer';
 import FooterAlt from './Layouts/footer-alt';
 
