@@ -43,8 +43,8 @@ class Index extends Component {
 
     componentDidMount()
     {
-      //document.body.classList = "";
-      //document.getElementById('nav-bar').classList.add('navbar-white');
+      document.body.classList = "";
+      document.getElementById('nav-bar').classList.add('navbar-white');
     }
 
 
@@ -54,7 +54,7 @@ class Index extends Component {
             <React.Fragment>
 
                 {/*  Header */}
-                {/*<Header />*/}
+                <Header />
 
                 {/* Home Section */}
                 {/*<section className="section bg-home home-half" id="home" data-image-src="images/bg-home.jpg">
@@ -78,6 +78,9 @@ class Index extends Component {
 
                 {/* Capa */}
                 <Capa />
+
+                <Info />
+
 
                 {/* About */}
                 <Portfolio />
