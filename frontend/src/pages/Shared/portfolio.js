@@ -15,34 +15,72 @@ class Portfolio extends Component {
     }
 
     render() {
-
+        
         return (
             <React.Fragment>
-                <section className="section" id="features">
-                    <div className="container">
-                        <Row>
-                            <Col lg="8" className="offset-lg-2">
-                                <h1 className="section-title text-center">Trabalhos Recentes</h1>
-                                <div className="section-title-border margin-t-20"></div>
-                                <p className="section-subtitle text-muted text-center padding-t-30 font-secondary">We craft digital, graphic and dimensional thinking, to create category leading brand experiences that have meaning and add a value for our clients.</p>
-                            </Col>
-                        </Row>
-                        <div className="row align-items-right">
-                            <div className="col-lg-12 order-2 order-lg-1">
-                                <div className="features-box mt-5 mt-lg-0">
-                                    <h3>Lorem ipsum dolor sit</h3>
-                                    <p className="text-muted web-desc">Sed do eiusmod tempor incididu ut labore et dolore magna aliqua.</p>
-                                    {/*<ul className="text-muted list-unstyled margin-t-30 features-item-list">
-                                        <li className="">Incididu ut labore et dolore</li>
-                                        <li className="">Consectetur adipiscing elit sed d aliqua</li>
-                                        <li className="">Eiusmod tempor incididu ut labore et dolore magna</li>
-                                    </ul>*/}
-                                    {/*<Link to="#" className="btn btn-custom margin-t-30 waves-effect waves-light">Leia mais <i className="mdi mdi-arrow-right"></i></Link>*/}
-                                </div>
-                            </div>
+                 <section className="section" id="about">
+            <div className="container">
+                <div className="row">
+                    <div className="col-lg-8 offset-lg-2">
+                        <div className="about-title mx-auto text-center">
+                            <h2 className="font-weight-light">A Digital web studio creating stunning  &amp; Engaging online Experiences </h2>
+                            <p className="text-muted pt-4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis.</p>
                         </div>
                     </div>
-                </section>
+                </div>
+                <div className="row margin-t-50">
+                    <div className="col-lg-3 col-sm-6">
+                        <div className="team-box text-center">
+                            <div className="team-wrapper">
+                                <div className="team-member">
+                                    <img alt="" src="" className="img-fluid rounded" />
+                                </div>
+                            </div>
+                            <h4 className="team-name">Consectetuer</h4>
+                            <p className="text-uppercase team-designation">Ridiculus</p>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-3 col-sm-6">
+                        <div className="team-box text-center">
+                            <div className="team-wrapper">
+                                <div className="team-member">
+                                    <img alt="" src="" className="img-fluid rounded" />
+                                </div>
+                            </div>
+                            <h4 className="team-name">Adipiscing</h4>
+                            <p className="text-uppercase team-designation">Penatibus</p>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-3 col-sm-6">
+                        <div className="team-box text-center">
+                            <div className="team-wrapper">
+                                <div className="team-member">
+                                    <img alt="" src="" className="img-fluid rounded" />
+                                </div>
+                            </div>
+                            <h4 className="team-name">Penatibus</h4>
+                            <p className="text-uppercase team-designation">Consectetuer</p>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-3 col-sm-6">
+                        <div className="team-box text-center">
+                            <div className="team-wrapper">
+                                <div className="team-member">
+                                    <img alt="" src="" className="img-fluid rounded" />
+                                </div>
+                            </div>
+                            <h4 className="team-name">Ridiculus</h4>
+                            <p className="text-uppercase team-designation">Adipiscing</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+              
             </React.Fragment >
         );
     }
