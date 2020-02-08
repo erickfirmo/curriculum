@@ -20,14 +20,13 @@ class Portfolio extends Component {
             <React.Fragment>
                  <section className="section" id="about">
             <div className="container">
-                <div className="row">
-                    <div className="col-lg-8 offset-lg-2">
-                        <div className="about-title mx-auto text-center">
-                            <h2 className="font-weight-light">A Digital web studio creating stunning  &amp; Engaging online Experiences </h2>
-                            <p className="text-muted pt-4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis.</p>
-                        </div>
-                    </div>
-                </div>
+                    <Row>
+                        <Col lg="8" className="offset-lg-2">
+                            <h1 className="section-title text-center">Trabalhos Recentes</h1>
+                            <div className="section-title-border margin-t-20"></div>
+                            <p className="section-subtitle text-muted text-center padding-t-30 font-secondary">Lorem ipsum dolor sit amet cras at niet magnus</p>
+                        </Col>
+                    </Row>
                 <div className="row margin-t-50">
                     <div className="col-lg-3 col-sm-6">
                         <div className="team-box text-center">
