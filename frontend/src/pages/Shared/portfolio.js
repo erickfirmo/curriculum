@@ -2,6 +2,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Col, Row } from 'reactstrap';
+import img1 from '../../images/blog/img-1.jpg';
 
 
 import grAnaly from '../../images/growth-analytics.svg';
@@ -28,11 +29,11 @@ class Portfolio extends Component {
                         </Col>
                     </Row>
                 <div className="row margin-t-50">
-                    <div className="col-lg-3 col-sm-6">
+                    <div className="col-lg-4 col-sm-6">
                         <div className="team-box text-center">
                             <div className="team-wrapper">
                                 <div className="team-member">
-                                    <img alt="" src="" className="img-fluid rounded" />
+                                    <img alt="" src={img1} className="img-fluid rounded" />
                                 </div>
                             </div>
                             <h4 className="team-name">Consectetuer</h4>
@@ -40,11 +41,11 @@ class Portfolio extends Component {
                         </div>
                     </div>
 
-                    <div className="col-lg-3 col-sm-6">
+                    <div className="col-lg-4 col-sm-6">
                         <div className="team-box text-center">
                             <div className="team-wrapper">
                                 <div className="team-member">
-                                    <img alt="" src="" className="img-fluid rounded" />
+                                    <img alt="" src={img1} className="img-fluid rounded" />
                                 </div>
                             </div>
                             <h4 className="team-name">Adipiscing</h4>
@@ -52,23 +53,11 @@ class Portfolio extends Component {
                         </div>
                     </div>
 
-                    <div className="col-lg-3 col-sm-6">
+                    <div className="col-lg-4 col-sm-6">
                         <div className="team-box text-center">
                             <div className="team-wrapper">
                                 <div className="team-member">
-                                    <img alt="" src="" className="img-fluid rounded" />
-                                </div>
-                            </div>
-                            <h4 className="team-name">Penatibus</h4>
-                            <p className="text-uppercase team-designation">Consectetuer</p>
-                        </div>
-                    </div>
-
-                    <div className="col-lg-3 col-sm-6">
-                        <div className="team-box text-center">
-                            <div className="team-wrapper">
-                                <div className="team-member">
-                                    <img alt="" src="" className="img-fluid rounded" />
+                                    <img alt="" src={img1} className="img-fluid rounded" />
                                 </div>
                             </div>
                             <h4 className="team-name">Ridiculus</h4>
