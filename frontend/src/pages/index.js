@@ -12,7 +12,7 @@ import FooterAlt from './Layouts/footer-alt';
 // Shared
 import  Info from './Shared/info';
 import  Client from './Shared/client';
-import  About from './Shared/about';
+import  Habilidades from './Shared/habilidades';
 import  Services from './Shared/services';
 import  Capa from './Shared/capa';
 import  Portfolio from './Shared/portfolio';
@@ -79,11 +79,14 @@ class Index extends Component {
                 {/* Capa */}
                 <Capa />
 
+                {/* Info */}
                 <Info />
 
-
-                {/* About */}
+                {/* Portfolio */}
                 <Portfolio />
+                
+                {/* Habilidades */}
+                <Habilidades />
                 
                 {/* Services */}
                 <Services />
