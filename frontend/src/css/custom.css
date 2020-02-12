@@ -1,5 +1,5 @@
 section.capa {
-    height: 260px;
+    height: 30vh;
     background: #1bbc9d;
     background-size: 100% auto;
     color: #000;
@@ -27,9 +27,9 @@ section.capa {
 
 img.profile {
     border-radius: 50%;
-    width: 240px;
-    height: 240px;
-    margin-top: 40px;
+    width: auto;
+    height: 25vh;
+    /*margin-top: 40px;*/
     
 }
 
