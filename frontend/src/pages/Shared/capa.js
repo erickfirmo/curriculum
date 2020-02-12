@@ -16,12 +16,12 @@ class Capa extends Component {
                 <section className="section capa p-0">
                     <div className="container">
                         <div className="row">
-                            <div className="col-sm-12 col-md-6 d-flex justify-content-center">
+                            <div className="col-sm-12 col-md-5 d-flex justify-content-center">
                                 <div className="my-auto">
                                     <img src="https://avatars3.githubusercontent.com/u/34639603?s=460&v=4" alt="Foto de Perfil" className="img-fluid profile"/>
                                 </div>
                             </div>
-                            <div className="col-sm-12 col-md-6 d-flex justify-content-center">
+                            <div className="col-sm-12 col-md-7 d-flex justify-content-center">
                                 <div className="my-auto top-40 justify-content-end">
                                     <h1>Érick Firmo</h1>
                                     <h2 className="mx-auto">Desenvolvedor Full Stack</h2>
