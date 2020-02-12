@@ -4,7 +4,6 @@ section.capa {
     min-height: 45vh;
     background-size: auto;
     color: #000;
-    padding: 5vh 0;
     background-image: url('../images/bg-mountains.jpg');
     background-position: center;
     background-attachment: fixed;
@@ -29,7 +28,7 @@ img.profile {
     border-radius: 50%;
     width: 30vh;
     height: 30vh;
-    margin-top: 7.5vh;
+    margin-top: 9vh;
 }
 
 .info {
