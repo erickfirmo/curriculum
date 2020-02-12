@@ -4,9 +4,10 @@ section.capa {
     min-height: 45vh;
     background-size: auto;
     color: #000;
-    background-image: url('../images/bg-mountains.jpg');
+    background: url('../images/bg-mountains.jpg') #000;
     background-position: center;
     background-attachment: fixed;
+    /*filter: brightness(60%);*/
 }
 
 .capa h1 {
