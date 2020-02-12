@@ -1,11 +1,13 @@
 /* Capa */
 
 section.capa {
-    height: 30vh;
+    min-height: 45vh;
     background-size: 100% auto;
     color: #000;
-    padding: 20px 0;
+    padding: 5vh 0;
     background-image: url('../images/bg-mountains.jpg');
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .capa h1 {
@@ -26,7 +28,8 @@ section.capa {
 img.profile {
     border-radius: 50%;
     width: auto;
-    height: 25vh;
+    height: 35vh;
+    margin-top: 5vh;
 }
 
 .info {
@@ -39,7 +42,7 @@ img.profile {
 
 @media(max-width: 767px) {
     img.profile {
-        margin-bottom: 40px;
+        margin-bottom: 5vh;
     }
 }
 
