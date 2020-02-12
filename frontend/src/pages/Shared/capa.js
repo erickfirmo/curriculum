@@ -13,7 +13,7 @@ class Capa extends Component {
         
         return (
             <React.Fragment>
-                <section className="section capa p-0">
+                <section className="section capa p-0 bg-mountains">
                     <div className="container">
                         <div className="row">
                             <div className="col-12 d-flex justify-content-center">
