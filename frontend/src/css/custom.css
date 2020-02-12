@@ -56,3 +56,6 @@ img.profile {
 
 /* backgrounds */
 
+.bg-montains {
+    background-image: url('../images/bg-montains.jpg');
+}
