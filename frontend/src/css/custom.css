@@ -2,10 +2,10 @@
 
 section.capa {
     height: 30vh;
-    background: #1bbc9d;
     background-size: 100% auto;
     color: #000;
     padding: 20px 0;
+    background-image: url('../images/bg-mountains.jpg');
 }
 
 .capa h1 {
@@ -29,11 +29,6 @@ img.profile {
     height: 25vh;
 }
 
-.top-40 {
-    position: relative;
-    top: 20px;
-}
-
 .info {
     background-color: #ddd;
 }
@@ -52,10 +47,4 @@ img.profile {
     img.profile {
         margin-right: 40px;
     }
-}
-
-/* backgrounds */
-
-.bg-montains {
-    background-image: url('../images/bg-montains.jpg');
 }
