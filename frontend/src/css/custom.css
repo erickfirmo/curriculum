@@ -7,6 +7,7 @@ section.capa {
     background: url('../images/bg-mountains.jpg') #000;
     background-position: center;
     background-attachment: fixed;
+    margin-top: 55px !important;
     /*filter: brightness(60%);*/
 }
 
@@ -15,20 +16,20 @@ section.capa div.bg-overlay {
     background: rgba(0, 0, 0, .4) !important;
 }
 
-.capa h1 {
+.text-capa h1 {
     font-size: 48px;
 }
 
-.capa h2 {
+.text-capa h2 {
     font-size: 22px;
 }
 
 
-.capa p {
+.text-capa p {
     font-size: 18px;
 }
 
-.capa h1, h2, h3, p {
+.text-capa h1, h2, p {
     color: #FFF;
 }
 
@@ -36,22 +37,39 @@ img.profile {
     border-radius: 50%;
     width: 30vh;
     height: 30vh;
-    margin-top: 9vh;
+    margin-top: 4.5vh;
 }
 
 .info {
     background-color: #ee6352;
     color: #FFF;
+    padding-bottom: 30px;
+}
+
+.info div div div div {
+    padding-top: 30px;
 }
 
 @media(max-width: 767px) {
     img.profile {
         margin-bottom: 5vh;
     }
+
+    .text-capa h1, h2, p {
+        text-align: center;
+    }
+    
 }
 
 @media(min-width: 768px) {
     img.profile {
         /*margin-right: 40px;*/
+        margin-top: 9vh;
+    }
+    .text-capa {
+        padding-top: 30px;
+    }
+    .text-capa {
+        margin-bottom: 30px;
     }
 }
