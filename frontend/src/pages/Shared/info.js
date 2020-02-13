@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Col, Row } from 'reactstrap';
+import FontAwesome from 'react-fontawesome'
+
 
 class Info extends Component {
 
@@ -19,7 +21,7 @@ class Info extends Component {
                             
                             <Col sm="12" md="4">
                                 <div>
-                                    +55 11 93026 2702
+                                    <FontAwesome name="envelope" size="2x"/>+55 11 93026 2702
                                 </div>
                             </Col>
 
