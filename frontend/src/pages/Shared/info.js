@@ -13,7 +13,7 @@ class Info extends Component {
 
         return (
             <React.Fragment>
-                <section className="section-sm bg-light">
+                <section className="section-sm info">
                     <div className="container">
                         <Row>
                             
