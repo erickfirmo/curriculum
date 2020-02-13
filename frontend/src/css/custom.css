@@ -10,19 +10,26 @@ section.capa {
     /*filter: brightness(60%);*/
 }
 
+
+section.capa div.bg-overlay {
+    background: rgba(0, 0, 0, .4) !important;
+}
+
 .capa h1 {
     font-size: 48px;
-    color: #fff;
 }
 
 .capa h2 {
     font-size: 22px;
-    color: #fff;
 }
+
 
 .capa p {
     font-size: 18px;
-    color: #fff;
+}
+
+.capa h1, h2, h3, p {
+    color: #FFF;
 }
 
 img.profile {
