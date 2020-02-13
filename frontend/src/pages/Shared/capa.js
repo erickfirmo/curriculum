@@ -26,7 +26,7 @@ class Capa extends Component {
                                 <div className="my-auto pt-5">
                                     <h1 className="mb-4">Érick Firmo</h1>
                                     <h2 className="mx-auto">Desenvolvedor Full Stack</h2>
-                                    <p className="home-desc mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididu ut labore et dolore magna aliqua.</p>
+                                    <p className="mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididu ut labore et dolore magna aliqua.</p>
                                 </div>
                             </div>
                         </div>
