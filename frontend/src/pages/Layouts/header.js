@@ -37,7 +37,7 @@ class Header extends Component {
                             </button>
                             <div className={this.state.isOpen ? "collapse navbar-collapse show" : "collapse navbar-collapse"} style={{ display : this.state.isOpen ? "inline-grid" : "" }} id="navbarCollapse">
 
-                                    <ul className={this.state.isOpen ? "navbar-nav navbar-left" : "navbar-nav ml-auto navbar-left"} id="mySidenav">
+                                    <ul className={this.state.isOpen ? "navbar-nav navbar-left" : "navbar-nav mx-auto navbar-left"} id="mySidenav">
                                         <li className="nav-item"><a href="#home" className="nav-link">Home</a></li>
                                         <li className="nav-item"><a href="#portfolio" className="nav-link">Portfólio</a></li>
                                         <li className="nav-item"><a href="#habilidades" className="nav-link">Habilidades</a></li>
@@ -45,13 +45,13 @@ class Header extends Component {
                                         <li className="nav-item"><a href="#contact" className="nav-link">Contato</a> </li>
                                     </ul>
 
-                                <div className={this.state.isOpen ? "nav-button" : "nav-button ml-auto"}>
+                                {/*<div className={this.state.isOpen ? "nav-button" : "nav-button ml-auto"}>
                                     <ul className="nav navbar-nav navbar-left">
                                         <li>
                                             <button type="button" className="btn btn-custom navbar-btn btn-rounded waves-effect waves-light">Try it Free</button>
                                         </li>
                                     </ul>
-                                </div>
+                                </div>*/}
                             </div>
                         </div>
                     </nav>
