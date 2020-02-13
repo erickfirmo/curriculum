@@ -48,6 +48,8 @@ img.profile {
 
 .info div div div div {
     padding-top: 30px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 @media(max-width: 767px) {
