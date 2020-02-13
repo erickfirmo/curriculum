@@ -73,8 +73,6 @@ class Index extends Component {
                     </div>
                 </section>*/}
 
-                {/* Client */}
-                <Info />
 
                 {/* Capa */}
                 <Capa />
