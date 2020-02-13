@@ -17,19 +17,19 @@ class Info extends Component {
                     <div className="container">
                         <Row>
                             
-                            <Col md="4">
+                            <Col sm="12" md="4">
                                 <div>
                                     +55 11 93026 2702
                                 </div>
                             </Col>
 
-                            <Col md="4">
+                            <Col sm="6" md="4">
                                 <div>
                                     erickluques@gmail.com
                                 </div>
                             </Col>
 
-                            <Col md="4">
+                            <Col sm="6" md="4">
                                 <div>
                                     São Paulo, SP - Brazil
                                 </div>
