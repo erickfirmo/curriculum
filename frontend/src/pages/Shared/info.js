@@ -13,24 +13,24 @@ class Info extends Component {
 
         return (
             <React.Fragment>
-                <section className="section-sm info">
+                <section className="info">
                     <div className="container">
                         <Row>
                             
                             <Col md="4">
-                                <div className="">
+                                <div>
                                     +55 11 93026 2702
                                 </div>
                             </Col>
 
                             <Col md="4">
-                                <div className="">
+                                <div>
                                     erickluques@gmail.com
                                 </div>
                             </Col>
 
                             <Col md="4">
-                                <div className="">
+                                <div>
                                     São Paulo, SP - Brazil
                                 </div>
                             </Col>
