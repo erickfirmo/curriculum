@@ -40,11 +40,8 @@ img.profile {
 }
 
 .info {
-    background-color: #ddd;
-}
-
-.info div {
-    margin: 20px;
+    background-color: #ee6352;
+    color: #FFF;
 }
 
 @media(max-width: 767px) {
