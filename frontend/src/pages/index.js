@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
 //Layout css
-import '../css/colors/cyan.css';
+import '../css/colors/red.css';
 
 // Layouts
 import Header from './Layouts/header';
@@ -73,8 +73,6 @@ class Index extends Component {
                     </div>
                 </section>*/}
 
-                {/* Client */}
-                <Info />
 
                 {/* Capa */}
                 <Capa />

@@ -1,59 +1,75 @@
+/* Capa */
+
 section.capa {
-    height: 260px;
-    background: #1bbc9d;
-    background-size: 100% auto;
+    min-height: 45vh;
+    background-size: auto;
     color: #000;
-    padding: 20px 0;
-
-
+    background: url('../images/bg-mountains.jpg') #000;
+    background-position: center;
+    background-attachment: fixed;
+    margin-top: 55px !important;
+    /*filter: brightness(60%);*/
 }
 
-.capa h1 {
+
+section.capa div.bg-overlay {
+    background: rgba(0, 0, 0, .4) !important;
+}
+
+.text-capa h1 {
     font-size: 48px;
-    color: #fff;
-
 }
-.capa h2 {
+
+.text-capa h2 {
     font-size: 22px;
-    color: #fff;
-
 }
-.capa p {
+
+
+.text-capa p {
     font-size: 18px;
-    color: #fff;
+}
 
-
+.text-capa h1, h2, p {
+    color: #FFF;
 }
 
 img.profile {
     border-radius: 50%;
-    width: 240px;
-    height: 240px;
-    margin-top: 40px;
-    
+    width: 30vh;
+    height: 30vh;
+    margin-top: 4.5vh;
 }
 
-.top-40 {
-    position: relative;
-    top: 20px;
-}
 .info {
-    background-color: #ddd;
+    background-color: #ee6352;
+    color: #FFF;
+    padding-bottom: 30px;
 }
 
-.info div {
-    margin: 20px;
+.info div div div div {
+    padding-top: 30px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 @media(max-width: 767px) {
     img.profile {
-        margin-bottom: 40px;
+        margin-bottom: 5vh;
     }
-}
 
+    .text-capa h1, h2, p {
+        text-align: center;
+    }
+    
+}
 
 @media(min-width: 768px) {
     img.profile {
-        margin-right: 40px;
+        /*margin-right: 40px;*/
+        margin-top: 9vh;
+    }
+    .text-capa {
+        padding-top: 10vh;
+        margin-bottom: 30px;
     }
 }

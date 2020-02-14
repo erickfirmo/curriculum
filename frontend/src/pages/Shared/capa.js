@@ -1,4 +1,3 @@
-
 import React, { Component } from 'react';
 
 class Capa extends Component {
@@ -14,16 +13,19 @@ class Capa extends Component {
         return (
             <React.Fragment>
                 <section className="section capa p-0">
-                    <div className="container">
+                    <div className="bg-overlay"></div>
+                    <div className="container-fluid">
                         <div className="row">
-                            <div className="col-12 d-flex justify-content-center">
-                                <div className="my-auto top-40">
+                            <div className="col-sm-12 col-md-4 d-flex justify-content-center">
+                                <div className="my-auto">
                                     <img src="https://avatars3.githubusercontent.com/u/34639603?s=460&v=4" alt="Foto de Perfil" className="img-fluid profile"/>
                                 </div>
-                                <div className="my-auto top-40 justify-content-end">
+                            </div>
+                            <div className="col-sm-12 col-md-8 d-flex">
+                                <div className="my-auto text-capa">
                                     <h1>Érick Firmo</h1>
                                     <h2 className="mx-auto">Desenvolvedor Full Stack</h2>
-                                    <p className="home-desc mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididu ut labore et dolore magna aliqua.</p>
+                                    <p className="mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididu ut labore et dolore magna aliqua.</p>
                                 </div>
                             </div>
                         </div>
