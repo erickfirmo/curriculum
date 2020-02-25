@@ -21,11 +21,11 @@ class Habilidades extends Component {
                             <Col lg="8" className="offset-lg-2">
                                 <h1 className="section-title text-center">Habilidades</h1>
                                 <div className="section-title-border margin-t-20"></div>
-                                <p className="section-subtitle text-muted text-center padding-t-30 font-secondary">We craft digital, graphic and dimensional thinking, to create category leading brand experiences that have meaning and add a value for our clients.</p>
+                                <p className="section-subtitle text-muted text-center padding-t-30 font-secondary">Lorem ipsum dolor sit amet cras at niet magnus</p>
                             </Col>
                         </Row>
                         <Row>
-                            <Col lg="3" className="margin-t-20">
+                            <Col lg="3" className="margin-t-30">
                                 <ProgressBar
                                     width="300"
                                     trackWidth="13"
@@ -40,7 +40,7 @@ class Habilidades extends Component {
                                 <h3 className="text-center">HTML</h3>
                             </Col>
                             
-                            <Col lg="3" className="margin-t-20">
+                            <Col lg="3" className="margin-t-30">
                                 <ProgressBar
                                     width="300"
                                     trackWidth="13"
@@ -55,7 +55,7 @@ class Habilidades extends Component {
                                 <h3 className="text-center">CSS</h3>
                             </Col>
                             
-                            <Col lg="3" className="margin-t-20">
+                            <Col lg="3" className="margin-t-30">
                                 <ProgressBar
                                     width="300"
                                     trackWidth="13"
@@ -70,7 +70,7 @@ class Habilidades extends Component {
                                 <h3 className="text-center">JAVASCRIPT</h3>
                             </Col>
                             
-                            <Col lg="3" className="margin-t-20">
+                            <Col lg="3" className="margin-t-30">
                                 <ProgressBar
                                     width="300"
                                     trackWidth="13"
