@@ -86,3 +86,11 @@ img.profile {
 section#about {
     background-color: #fff;
 }
+
+.progress-bar {
+    background-color: #fafbfe;
+}
+
+.progress-bar div {
+    margin: 0 auto;
+}
