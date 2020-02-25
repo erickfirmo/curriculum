@@ -24,110 +24,20 @@ class Habilidades extends Component {
                                 <p className="section-subtitle text-muted text-center padding-t-30 font-secondary">We craft digital, graphic and dimensional thinking, to create category leading brand experiences that have meaning and add a value for our clients.</p>
                             </Col>
                         </Row>
-                        <div className="row margin-t-30">
-                            <Col lg="4" className="margin-t-20">
-                                <div className="services-box">
-                                    <div className="media">
-                                        <i className="pe-7s-diamond text-custom"></i>
-                                        <div className="media-body ml-4">
-                                            <h4>Digital Design</h4>
-                                            <p className="pt-2 text-muted">Some quick example text to build on the card title and make up the bulk of the card's content. Moltin gives you the platform.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </Col>
-                            <Col lg="4" className="margin-t-20">
-                                <div className="services-box">
-                                    <div className="media">
-                                        <i className="pe-7s-display2 text-custom"></i>
-                                        <div className="media-body ml-4">
-                                            <h4>Unlimited Colors</h4>
-                                            <p className="pt-2 text-muted">Credibly brand standards compliant users without extensible services. Anibh euismod tincidunt ut laoreet Ipsum passage.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </Col>
-                            <Col lg="4" className="margin-t-20">
-                                <div className="services-box">
-                                    <div className="media">
-                                        <i className="pe-7s-piggy text-custom"></i>
-                                        <div className="media-body ml-4">
-                                            <h4>Strategy Solutions</h4>
-                                            <p className="pt-2 text-muted">Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean necessary regelialia.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </Col>
-                        </div>
                         <Row>
-                            <Col lg="4" className="margin-t-20">
+                            <Col lg="12" className="margin-t-20">
                                 <div className="services-box">
-                                    <div className="media">
-                                        <i className="pe-7s-science text-custom"></i>
-                                        <div className="media-body ml-4">
-                                            <h4>Awesome Support</h4>
-                                            <p className="pt-2 text-muted">It is a paradisematic country, in which roasted parts of sentences fly into your mouth leave for the far World.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </Col>
-                            <Col lg="4" className="margin-t-20">
-                                <div className="services-box">
-                                    <div className="media">
-                                        <i className="pe-7s-news-paper text-custom"></i>
-                                        <div className="media-body ml-4">
-                                            <h4>Truly Multipurpose</h4>
-                                            <p className="pt-2 text-muted">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </Col>
-                            <Col lg="4" className="margin-t-20">
-                                <div className="services-box">
-                                    <div className="media">
-                                        <i className="pe-7s-plane text-custom"></i>
-                                        <div className="media-body ml-4">
-                                            <h4>Easy to customize</h4>
-                                            <p className="pt-2 text-muted">Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia.</p>
+                                    <div className="skill">
+                                        <p>PHP</p>
+                                        <div className="skill-bar skill5 wow slideInLeft animated">
+                                            <span className="skill-count5">80%</span>
                                         </div>
                                     </div>
                                 </div>
                             </Col>
                         </Row>
                         <Row>
-                            <Col lg="4" className="margin-t-20">
-                                <div className="services-box">
-                                    <div className="media">
-                                        <i className="pe-7s-arc text-custom"></i>
-                                        <div className="media-body ml-4">
-                                            <h4>Pixel Perfect Design</h4>
-                                            <p className="pt-2 text-muted">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </Col>
-                            <Col lg="4" className="margin-t-20">
-                                <div className="services-box">
-                                    <div className="media">
-                                        <i className="pe-7s-tools text-custom"></i>
-                                        <div className="media-body ml-4">
-                                            <h4>Perfect Toolbox</h4>
-                                            <p className="pt-2 text-muted">Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </Col>
-                            <Col lg="4" className="margin-t-20">
-                                <div className="services-box">
-                                    <div className="media">
-                                        <i className="pe-7s-timer text-custom"></i>
-                                        <div className="media-body ml-4">
-                                            <h4>Awesome Design</h4>
-                                            <p className="pt-2 text-muted">All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </Col>
+                            
                         </Row>
                     </div>
                 </section>
