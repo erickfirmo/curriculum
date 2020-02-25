@@ -77,8 +77,8 @@ class Index extends Component {
                 {/* Capa */}
                 <Capa />
 
-                {/* Info */}
-                <Info />
+                {/* Info 
+                <Info />*/}
 
                 {/* Portfolio */}
                 <Portfolio />
