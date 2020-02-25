@@ -66,6 +66,44 @@ class Portfolio extends Component {
                     </div>
 
                 </div>
+                <div className="row margin-t-50">
+                    <div className="col-lg-4 col-sm-6">
+                        <div className="team-box text-center">
+                            <div className="team-wrapper">
+                                <div className="team-member">
+                                    <img alt="" src={img1} className="img-fluid rounded" />
+                                </div>
+                            </div>
+                            <h4 className="team-name">Consectetuer</h4>
+                            <p className="text-uppercase team-designation">Ridiculus</p>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-4 col-sm-6">
+                        <div className="team-box text-center">
+                            <div className="team-wrapper">
+                                <div className="team-member">
+                                    <img alt="" src={img1} className="img-fluid rounded" />
+                                </div>
+                            </div>
+                            <h4 className="team-name">Adipiscing</h4>
+                            <p className="text-uppercase team-designation">Penatibus</p>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-4 col-sm-6">
+                        <div className="team-box text-center">
+                            <div className="team-wrapper">
+                                <div className="team-member">
+                                    <img alt="" src={img1} className="img-fluid rounded" />
+                                </div>
+                            </div>
+                            <h4 className="team-name">Ridiculus</h4>
+                            <p className="text-uppercase team-designation">Adipiscing</p>
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </section>
               
