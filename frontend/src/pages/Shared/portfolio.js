@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Col, Row } from 'reactstrap';
-import img1 from '../../images/blog/img-1.jpg';
+import img1 from '../../images/portfolio/img-1.png';
 
 
 import grAnaly from '../../images/growth-analytics.svg';
@@ -33,7 +33,9 @@ class Portfolio extends Component {
                         <div className="team-box text-center">
                             <div className="team-wrapper">
                                 <div className="team-member">
-                                    <img alt="" src={img1} className="img-fluid rounded" />
+                                    <a href="https://erickfirmo.dev/projetos/barbearia-progresso" target="_blank">
+                                        <img alt="Barbearia Progresso" src={img1} className="img-fluid rounded" />
+                                    </a>
                                 </div>
                             </div>
                             <h4 className="team-name">Barbearia Progresso</h4>
